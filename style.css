@@ -166,3 +166,35 @@ button {
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
+
+.main.quote{  
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+   
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937; 
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 100px 100px 0px 100px;
+   width: 850px;
+}
+
+.quote-person {
+    font-size: 18px;
+    display: flex;
+    width: 780px;
+    justify-content: flex-end;
+    font-style: light italic;
+    color: #1F2937; 
+    margin-bottom: 100px;
+    /* border: 1px solid black; */
+}
+
